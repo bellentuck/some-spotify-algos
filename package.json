@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "Ben Ellentuck <ellentuckben@gmail.com> (https://bellentuck.github.io/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-register": "6.26.0",
+    "chai": "4.1.2",
+    "mocha": "5.2.0"
+  }
 }
