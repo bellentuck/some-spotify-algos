@@ -3,7 +3,7 @@
 import { expect } from 'chai';
 import { sort } from '../index';
 
-describe.only('The `sortByStrings` algorithm', () => {
+describe('The `sortByStrings` algorithm', () => {
   let s, t;
   it('Takes two arguments, both strings', () => {
     const err = 'This function takes 2 inputs which must both be strings.';
