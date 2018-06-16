@@ -18,7 +18,6 @@ const changePossibilities = (total, denoms) => {
   return ways[total];
 }
 
-
 export default (amt, denoms) => {
   if (isNaN(Number(amt)) || !Array.isArray(denoms) || denoms.some(el => isNaN(Number(el)))) {
     throw new Error('This function takes 2 inputs which must be a number and an array of numbers, respectively.');
